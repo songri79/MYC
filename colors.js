@@ -29,7 +29,7 @@ if(self.value ==='night'){
   Body.setbackgroundColor('black');
   Body.setColor('white');
   self.value ='day';
-  Links.setColor('powderblue');
+  Links.setColor('yellow');
   }
 
  else{
