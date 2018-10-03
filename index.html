@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <title> 코딩을 배우며 </title>
@@ -7,15 +7,36 @@
     <meta charset="utf-8">
 
      <link rel="stylesheet" href="style.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="style-3.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="colors.js"> </script>
 
 
 </head>
 
 <body>
-
   <h1><a  href="index.html">Coding</a></h1>
+  <div id="banner_wrap">
+ <figure id='banner' class="active">
+   <!-- 스프라이트 이미지 -->
+     <img src='images/star1.png' alt='h'>
+     <img src='images/star2.png' alt='e'>
+     <img src='images/star3.png' alt='l'>
+     <img src='images/star4.png' alt='l'>
+     <img src='images/star5.png' alt='o'>
+     <img src='images/star1.png' alt='h'>
+     <img src='images/star2.png' alt='e'>
+     <img src='images/star3.png' alt='l'>
+     <img src='images/star4.png' alt='l'>
+     <img src='images/star5.png' alt='o'>
+     <input id='sound_btn' type='image' src='images/sound_off2.png' alt='sound'>
+ </figure>
+ <a id="toggle" href="#">배너 닫기</a>
+</div>
+<script src="2.min.js"></script>
+<audio preload="auto" src="images/bgm.mp3" loop=""></audio>
+
+
   <p style="  text-align: center;">
     <input type="button"   value="welcome" onclick="alert('방문해 주셔서 감사합니다.')">
   </p>
@@ -24,7 +45,8 @@
  nightDayHandler(this);
   ">
    <p>
-  <h2> <a  href="index.html"> Learn to code </a> </h2>
+
+<h2> <a  href="index.html"> Learn to code </a> </h2>
   <div id="grid">
 
           <ol style="margin-left:20px;">
@@ -38,8 +60,9 @@
              <br><a  href="8.html"><u>코딩을 배우게 된 동기</u></a>
                <br><br><a href="13.html"><u>참고 링크</u></a>
           </ol>
-</div>
-   <img src="coding.jpg"  width="50%"  class="center">
+</div><br>
+
+   <img src="coding1.jpg"    class="center">
 
 
 </body>
